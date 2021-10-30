@@ -1,0 +1,59 @@
+# -*- coding: utf8 -*-
+name: 'Renewal'
+
+on:
+  schedule:
+    - cron: '5 2 2,7,12,17,22,27 * *'
+  release:
+    types: [published]
+  watch:
+    types: [started]
+
+jobs: 
+  Auto_Renew:
+    runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id # 自己star启动
+    steps:
+    - name: Setup timezone
+      uses: zcong1993/setup-timezone@v1.1.1
+      with:
+        timezone: Asia/Shanghai
+
+    - name: 'Checkout codes'
+      uses: actions/checkout@v2
+
+    - name: 'Set python'
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+    - name: 'Install dependencies'
+      run: |
+          python -m pip install --upgrade requests
+          python -m pip install --upgrade beautifulsoup4
+
+    - name: 'Renewal'
+      env:
+        USERNAME: ${{ secrets.USERNAME }}
+        PASSWORD: ${{ secrets.PASSWORD }}
+        TRUECAPTCHA_USERID: ${{ secrets.TRUECAPTCHA_USERID }}
+        TRUECAPTCHA_APIKEY: ${{ secrets.TRUECAPTCHA_APIKEY }}
+        TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+        TG_USER_ID: ${{ secrets.TG_USER_ID }}
+        SCKEY: ${{ secrets.SCKEY }}
+      run: |
+        python main.py > ./run.log
+        tail run.log   
+    - name: Commit log
+      env:
+        NAME: fqdata123
+        EMAIL: ${{ secrets.GithubEmail }}
+      run: |
+        git config --global user.name "$NAME"
+        git config --global user.email "$EMAIL"
+        git add .
+        git commit -m "update log" -a
+    - name: Push log
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GithubToken }}
+        branch: main
