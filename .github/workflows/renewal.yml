@@ -41,7 +41,7 @@ jobs:
         TG_USER_ID: ${{ secrets.TG_USER_ID }}
         SCKEY: ${{ secrets.SCKEY }}
       run: |
-        python main.py > ./run.log
+        python renewal.py > ./run.log
         tail run.log   
     - name: Commit log
       env:
