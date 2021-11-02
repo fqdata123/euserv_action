@@ -2,8 +2,8 @@
 正在续费第 1 个账号
 [Captcha Solver] 进行验证码识别...
 [Captcha Solver] You are using your own apikey.
-[Captcha Solver] 识别的验证码是: 40
-[Captcha Solver] current date 2021-10-30 api usage count: 1
+[Captcha Solver] 识别的验证码是: 6
+[Captcha Solver] current date 2021-11-02 api usage count: 1
 [Captcha Solver] 验证通过
 检测到第 1 个账号有 1 台VPS，正在尝试续期
 ServerID: 306006 does not need to be renewed
@@ -13,10 +13,13 @@ ALL Work Done! Enjoy
 正在续费第 2 个账号
 [Captcha Solver] 进行验证码识别...
 [Captcha Solver] You are using your own apikey.
-[Captcha Solver] 识别的验证码是: JKmME
-[Captcha Solver] current date 2021-10-30 api usage count: 2
-[Captcha Solver] 验证失败
-第 2 个账号登陆失败，请检查登录信息
+[Captcha Solver] 识别的验证码是: 9
+[Captcha Solver] current date 2021-11-02 api usage count: 2
+[Captcha Solver] 验证通过
+检测到第 2 个账号有 1 台VPS，正在尝试续期
+ServerID: 308015 does not need to be renewed
+Checking.......
+ALL Work Done! Enjoy
 ******************************
 Telegram Bot 推送成功
-2021-10-30 08:59:16
+2021-11-02 10:53:15
