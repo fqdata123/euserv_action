@@ -1,15 +1,15 @@
 ******************************
-正在续费第 1 个账号
-检测到第 1 个账号有 1 台VPS，正在尝试续期
-ServerID: 306006 does not need to be renewed
-Checking.......
-ALL Work Done! Enjoy
+[EUserv] 正在续费第 1 个账号
+[EUserv] Login tried the 2th time
+[EUserv] Login tried the 3th time
+[EUserv] Login tried the 4th time
+[EUserv] Login tried the 5th time
+[EUserv] 第 1 个账号登陆失败，请检查登录信息
 ******************************
-正在续费第 2 个账号
-检测到第 2 个账号有 1 台VPS，正在尝试续期
-ServerID: 308015 does not need to be renewed
+[EUserv] 正在续费第 2 个账号
+[EUserv] 检测到第 2 个账号有 1 台 VPS，正在尝试续期
+[EUserv] ServerID: 308015 does not need to be renewed
 Checking.......
-ALL Work Done! Enjoy
-******************************
+[EUserv] ALL Work Done! Enjoy~
 Telegram Bot 推送成功
-2021-11-08 21:08:07
+******************************
