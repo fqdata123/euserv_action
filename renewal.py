@@ -478,7 +478,6 @@ if __name__ == "__main__":
         check(sessid, s)
         time.sleep(5)
 
+    print("*" * 30)
     TG_BOT_TOKEN and TG_USER_ID and TG_API_HOST and telegram()
     #RECEIVER_EMAIL and YD_EMAIL and YD_APP_PWD and email()
-
-    print("*" * 30)
