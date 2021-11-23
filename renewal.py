@@ -476,7 +476,7 @@ if __name__ == "__main__":
         time.sleep(15)
         check(sessid, s)
         time.sleep(5)
-    log(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
     print("*" * 30)
     TG_BOT_TOKEN and TG_USER_ID and TG_API_HOST and telegram()
     #RECEIVER_EMAIL and YD_EMAIL and YD_APP_PWD and email()
+    print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
