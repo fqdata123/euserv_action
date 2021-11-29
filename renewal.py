@@ -150,15 +150,15 @@ def handle_captcha_solved_result(solved: dict) -> str:
     """
     if "result" in solved:
         solved_text = solved["result"]
-        #if "RESULT  IS" in solved_text:
-        #    log("[Captcha Solver] You are using the demo apikey.")
-        #    print("There is no guarantee that demo apikey will work in the future!")
-        #    # because using demo apikey
-        #    text = re.findall(r"RESULT  IS . (.*) .", solved_text)[0]
-        #else:
+        if "RESULT  IS" in solved_text:
+            log("[Captcha Solver] You are using the demo apikey.")
+            print("There is no guarantee that demo apikey will work in the future!")
+            # because using demo apikey
+            text = re.findall(r"RESULT  IS . (.*) .", solved_text)[0]
+        else:
             # using your own apikey
-        log("[Captcha Solver] You are using your own apikey.")
-        text = solved_text
+            log("[Captcha Solver] You are using your own apikey.")
+            text = solved_text
         operators = ["X", "x", "+", "-"]
         if any(x in text for x in operators):
             for operator in operators:
