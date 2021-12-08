@@ -1,43 +1,16 @@
 ******************************
 [EUserv] 正在续费第 1 个账号
-[Captcha Solver] 进行验证码识别...
-[Captcha Solver] You are using your own apikey.
-[Captcha Solver] 识别的验证码是: 4
-[Captcha Solver] current date 2021-12-08 api usage count: 1
-[Captcha Solver] 验证失败
-[Captcha Solver] 进行验证码识别...
-[Captcha Solver] You are using your own apikey.
-[Captcha Solver] 识别的验证码是: 6xx
-[Captcha Solver] current date 2021-12-08 api usage count: 2
-[Captcha Solver] 验证失败
-[EUserv] Login tried the 2th time
-[Captcha Solver] 进行验证码识别...
-[Captcha Solver] You are using your own apikey.
-[Captcha Solver] 识别的验证码是: 8aYOrZ
-[Captcha Solver] current date 2021-12-08 api usage count: 3
-[Captcha Solver] 验证失败
-[EUserv] Login tried the 3th time
-[Captcha Solver] 进行验证码识别...
-[Captcha Solver] You are using your own apikey.
-[Captcha Solver] 识别的验证码是: caqUd8
-[Captcha Solver] current date 2021-12-08 api usage count: 4
-[Captcha Solver] 验证通过
 [EUserv] 检测到第 1 个账号有 1 台 VPS，正在尝试续期
-[MailParser] PIN: 580218
-[EUserv] ServerID: 306006 Renew Error!
+[MailParser] PIN: 157922
+[EUserv] ServerID: 306006 has been successfully renewed!
 Checking.......
 [EUserv] ALL Work Done! Enjoy~
 ******************************
 [EUserv] 正在续费第 2 个账号
-[Captcha Solver] 进行验证码识别...
-[Captcha Solver] You are using your own apikey.
-[Captcha Solver] 识别的验证码是: RN6S7x
-[Captcha Solver] current date 2021-12-08 api usage count: 5
-[Captcha Solver] 验证通过
 [EUserv] 检测到第 2 个账号有 1 台 VPS，正在尝试续期
 [EUserv] ServerID: 308015 does not need to be renewed
 Checking.......
 [EUserv] ALL Work Done! Enjoy~
 ******************************
 Telegram Bot 推送成功
-2021-12-08 08:38:01
+2021-12-08 09:09:52
