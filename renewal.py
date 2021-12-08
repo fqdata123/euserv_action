@@ -134,7 +134,7 @@ def captcha_solver(captcha_image_url: str, session: requests.session) -> dict:
     data = {
         "userid": TRUECAPTCHA_USERID,
         "apikey": TRUECAPTCHA_APIKEY,
-        "case": "mixed",
+        "case": "lower",
         "mode": "default", #(human | default)
         "data": str(encoded_string)[2:-1],
     }
