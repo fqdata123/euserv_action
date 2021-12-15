@@ -15,7 +15,7 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id # 自己star启动
     steps:
     - name: Setup timezone
-      uses: actions/setup-timezone@v1
+      uses: zcong1993/setup-timezone@v1.1.1
       with:
         timezone: Asia/Shanghai
 
