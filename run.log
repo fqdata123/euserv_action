@@ -1,15 +1,30 @@
 ******************************
 [EUserv] 正在续费第 1 个账号
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: 971
+[Captcha Solver] current date 2022-04-01 api usage count: 1
+[Captcha Solver] 验证失败
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: xfsv3g
+[Captcha Solver] current date 2022-04-01 api usage count: 2
+[Captcha Solver] 验证通过
 [EUserv] 检测到第 1 个账号有 1 台 VPS，正在尝试续期
 [EUserv] ServerID: 306006 does not need to be renewed
 Checking.......
 [EUserv] ALL Work Done! Enjoy~
 ******************************
 [EUserv] 正在续费第 2 个账号
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: 14
+[Captcha Solver] current date 2022-04-01 api usage count: 3
+[Captcha Solver] 验证通过
 [EUserv] 检测到第 2 个账号有 1 台 VPS，正在尝试续期
 [EUserv] ServerID: 308015 does not need to be renewed
 Checking.......
 [EUserv] ALL Work Done! Enjoy~
 ******************************
 Telegram Bot 推送成功
-2022-03-30 02:14:05
+2022-04-01 08:56:47
