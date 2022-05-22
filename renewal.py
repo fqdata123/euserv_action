@@ -75,7 +75,7 @@ PROXIES = {"http": "http://127.0.0.1:10808", "https": "http://127.0.0.1:10808"}
 LOGIN_MAX_RETRY_COUNT = 5
 
 # Waiting time of receiving PIN, units are seconds.
-WAITING_TIME_OF_PIN = 15
+WAITING_TIME_OF_PIN = 30
 
 # options: True or False
 CHECK_CAPTCHA_SOLVER_USAGE = True
