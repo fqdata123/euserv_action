@@ -1,8 +1,7 @@
 ******************************
 [EUserv] 正在续费第 1 个账号
 [EUserv] 检测到第 1 个账号有 1 台 VPS，正在尝试续期
-[MailParser] PIN: 392884
-[EUserv] ServerID: 308015 Renew Error!
+[EUserv] ServerID: 308015 does not need to be renewed
 Checking.......
 [EUserv] ALL Work Done! Enjoy~
 ******************************
@@ -13,4 +12,4 @@ Checking.......
 [EUserv] ALL Work Done! Enjoy~
 ******************************
 Telegram Bot 推送成功
-2022-05-22 17:39:38
+2022-05-22 20:20:13
