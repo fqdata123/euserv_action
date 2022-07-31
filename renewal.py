@@ -202,10 +202,10 @@ def get_pin_from_mailparser(url_id: str) -> str:
         f"{url_id}",
     )
     #body = response.json()[0]["body"].replace("\n","").replace("\r","")
-    response.encoding="utf-8"
+    #response.encoding="utf-8"
     #body = response.text.replace("\n","").replace("\r","")
     body = response.text
-    log(body)
+    print(body)
     #pin = re.findall("PIN\S?(\d+)",body)[0]
     pin = 1
     return pin
