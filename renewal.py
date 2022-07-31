@@ -198,12 +198,10 @@ def get_captcha_solver_usage() -> dict:
 
 
 def get_pin_from_mailparser(url_id: str) -> str:
-    #response = requests.get(
-    #    f"{url_id}",
-    #)
-    response = requests.get(url_id)
-    body = response.text.replace("\n","").replace("\r","")
-    pin = re.findall("PIN\D?\D?(\d+)",body)[0]
+    response = requests.get(
+        f"{url_id}",
+    )
+    pin = re.findall("PIN\D?\D?(\d+)",response.text)[0]
     return pin
 
 
