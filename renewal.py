@@ -206,7 +206,6 @@ def get_pin_from_mailparser(url_id: str) -> str:
         pin = re.findall("PIN\D*(\d+)",response.text)[0]
     except:
         pin = ''
-    else:
     finally:
         return pin
 
