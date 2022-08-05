@@ -207,6 +207,7 @@ def get_pin_from_mailparser(url_id: str) -> str:
     except:
         pin = ''
     else:
+    finally:
         return pin
 
 
