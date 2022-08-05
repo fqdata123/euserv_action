@@ -330,18 +330,18 @@ def renew(
     session.post(url, headers=headers, data=data)
 
     # pop up 'Security Check' window, it will trigger 'send PIN' automatically.
-"""
-    session.post(
-        url,
-        headers=headers,
-        data={
-            "sess_id": sess_id,
-            "subaction": "show_kc2_security_password_dialog",
-            "prefix": "kc2_customer_contract_details_extend_contract_",
-            "type": "1",
-        },
-    )
-"""
+
+    ##session.post(
+    #    url,
+    #    headers=headers,
+    #    data={
+    #        "sess_id": sess_id,
+    #        "subaction": "show_kc2_security_password_dialog",
+    #        "prefix": "kc2_customer_contract_details_extend_contract_",
+    #        "type": "1",
+    #    },
+    #)
+
     # # trigger 'Send new PIN to your Email-Address' (optional),
     # new_pin = session.post(url, headers=headers, data={
     #     "sess_id": sess_id,
