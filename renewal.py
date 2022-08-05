@@ -197,11 +197,8 @@ def get_captcha_solver_usage() -> dict:
     return j
 
 
-def get_pin_from_mailparser(url_id: str) -> str:
-    response = requests.get(
-        f"{url_id}",
-    )
-    return response.text
+def get_pin_from_mailparser(url: str) -> str:
+    response = requests.get(url)
     response.encoding = "utf-8"
     try:
         pin = re.findall("PIN\D*(\d+)",response.text)[0]
@@ -331,16 +328,16 @@ def renew(
 
     # pop up 'Security Check' window, it will trigger 'send PIN' automatically.
 
-    ##session.post(
-    #    url,
-    #    headers=headers,
-    #    data={
-    #        "sess_id": sess_id,
-    #        "subaction": "show_kc2_security_password_dialog",
-    #        "prefix": "kc2_customer_contract_details_extend_contract_",
-    #        "type": "1",
-    #    },
-    #)
+    session.post(
+        url,
+        headers=headers,
+        data={
+            "sess_id": sess_id,
+            "subaction": "show_kc2_security_password_dialog",
+            "prefix": "kc2_customer_contract_details_extend_contract_",
+            "type": "1",
+        },
+    )
 
     # # trigger 'Send new PIN to your Email-Address' (optional),
     # new_pin = session.post(url, headers=headers, data={
