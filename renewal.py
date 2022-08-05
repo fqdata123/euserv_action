@@ -201,7 +201,7 @@ def get_pin_from_mailparser(url_id: str) -> str:
     response = requests.get(
         f"{url_id}",
     )
-    return response.text.replace("\n","").replace("\r","")
+    return response.text
     response.encoding = "utf-8"
     try:
         pin = re.findall("PIN\D*(\d+)",response.text)[0]
@@ -328,8 +328,9 @@ def renew(
         "choose_order_subaction": "show_contract_details",
     }
     session.post(url, headers=headers, data=data)
-"""
+
     # pop up 'Security Check' window, it will trigger 'send PIN' automatically.
+"""
     session.post(
         url,
         headers=headers,
