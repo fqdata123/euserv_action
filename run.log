@@ -1,55 +1,8 @@
 ******************************
 [EUserv] 正在续费第 1 个账号
 [EUserv] 检测到第 1 个账号有 1 台 VPS，正在尝试续期
-[MailParser] PIN: 7a054e088db545cd084352f3014d2988;"2022-08-04 18:53:25";"2022-08-04 18:53:25";"Dear Mr. Yao,
-
-you have just requested a PIN for confirmation of a security check at EUserv. If you have not requested the PIN then ignore this email.
-
-PIN:
- 490385
-
-PLEASE NOTE: If you already have requested a new PIN for the same process this PIN is invalid. Also this PIN is only valid within the session in which it has been requested. This means the PIN is invalid if you for example change the browser or if you logout and perform a new login.
-
-Sincerely,
- Your customer support EUserv
-
---
- Web ................: [url=http://www.euserv.com]http://www.euserv.com[/url] 
- Login control panel.: [url=https://support.euserv.com]https://support.euserv.com[/url] 
- FAQ ................: [url=http://faq.euserv.com]http://faq.euserv.com[/url] 
- Help & Guides.......: [url=http://wiki.euserv.com]http://wiki.euserv.com[/url] 
- Community / Forum...: [url=http://forum.euserv.com]http://forum.euserv.com[/url] 
- Mailing-Liste ......: [url=http://www.euserv.com/en/?show_contact=mailinglist]http://www.euserv.com/en/?show_contact=mailinglist[/url] 
- Twitter ............: [url=http://twitter.com/euservhosting]http://twitter.com/euservhosting[/url] 
- Facebook ...........: [url=http://www.facebook.com/euservhosting]http://www.facebook.com/euservhosting[/url] 
- --
-
-EUserv Internet
- is a division of
- ISPpro Internet KG
-
-Postal address:
- ISPpro Internet KG
- Division EUserv Internet
- P.O. Box 2224
- 07622 Hermsdorf
- GERMANY
-
-Support-Phone: +49 (0) 3641 3101011 (English speaking)
-
-Administration:
- ISPpro Internet KG
- Neue Str. 4
- D-07639 Bad Klosterlausnitz
- GERMANY
-
-Management...............: Dirk Seidel
- Register.................: AG Jena, HRA 202638
- VAT Number...............: 162/156/36600
- Tax office ..............: Jena
- International VAT Number.: DE813856317"
-
-[EUserv] ServerID: 306006 Renew Error!
+[MailParser] PIN: 120759
+[EUserv] ServerID: 306006 has been successfully renewed!
 Checking.......
 [EUserv] ALL Work Done! Enjoy~
 ******************************
@@ -60,4 +13,4 @@ Checking.......
 [EUserv] ALL Work Done! Enjoy~
 ******************************
 Telegram Bot 推送成功
-2022-08-05 10:21:56
+2022-08-05 10:25:49
