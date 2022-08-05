@@ -202,8 +202,12 @@ def get_pin_from_mailparser(url_id: str) -> str:
         f"{url_id}",
     )
     response.encoding = "utf-8"
-    pin = re.findall("PIN\D*(\d+)",response.text)[0]
-    return pin
+    try:
+        pin = re.findall("PIN\D*(\d+)",response.text)[0]
+    except:
+        pin = ''
+    else:
+        return pin
 
 
 @login_retry(max_retry=LOGIN_MAX_RETRY_COUNT)
