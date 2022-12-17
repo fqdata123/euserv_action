@@ -1,16 +1,38 @@
 ******************************
 [EUserv] 正在续费第 1 个账号
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: z6dubz
+[Captcha Solver] current date 2022-12-17 api usage count: 1
+[Captcha Solver] 验证通过
 [EUserv] 检测到第 1 个账号有 1 台 VPS，正在尝试续期
-[MailParser] PIN: 213551
-[EUserv] ServerID: 306006 Renew Error!
+[MailParser] PIN: 836949
+[EUserv] ServerID: 306006 has been successfully renewed!
 Checking.......
 [EUserv] ALL Work Done! Enjoy~
 ******************************
 [EUserv] 正在续费第 2 个账号
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: a9paoz
+[Captcha Solver] current date 2022-12-17 api usage count: 2
+[Captcha Solver] 验证失败
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: 6+z
+[Captcha Solver] current date 2022-12-17 api usage count: 3
+[Captcha Solver] 验证失败
+[EUserv] Login tried the 2th time
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: 7
+[Captcha Solver] current date 2022-12-17 api usage count: 4
+[Captcha Solver] 验证通过
 [EUserv] 检测到第 2 个账号有 1 台 VPS，正在尝试续期
-[EUserv] ServerID: 308015 does not need to be renewed
+[MailParser] PIN: 140671
+[EUserv] ServerID: 308015 has been successfully renewed!
 Checking.......
 [EUserv] ALL Work Done! Enjoy~
 ******************************
 Telegram Bot 推送成功
-2022-12-10 01:09:51
+2022-12-17 10:06:05
