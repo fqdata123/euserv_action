@@ -1,17 +1,22 @@
 ******************************
 [EUserv] 正在续费第 1 个账号
 [EUserv] 检测到第 1 个账号有 1 台 VPS，正在尝试续期
-[MailParser] PIN: 721476
+[MailParser] PIN: 494435
 [EUserv] ServerID: 306006 has been successfully renewed!
 Checking.......
 [EUserv] ALL Work Done! Enjoy~
 ******************************
 [EUserv] 正在续费第 2 个账号
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: zw6y43
+[Captcha Solver] current date 2023-02-09 api usage count: 2
+[Captcha Solver] 验证通过
 [EUserv] 检测到第 2 个账号有 1 台 VPS，正在尝试续期
-[MailParser] PIN: 742938
+[MailParser] PIN: 581863
 [EUserv] ServerID: 308015 has been successfully renewed!
 Checking.......
 [EUserv] ALL Work Done! Enjoy~
 ******************************
 Telegram Bot 推送成功
-2023-02-02 01:10:40
+2023-02-10 01:11:00
