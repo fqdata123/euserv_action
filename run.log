@@ -1,7 +1,29 @@
 ******************************
 [EUserv] 正在续费第 1 个账号
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: 5dmrdo
+[Captcha Solver] current date 2023-02-17 api usage count: 1
+[Captcha Solver] 验证失败
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: 1+t
+[Captcha Solver] current date 2023-02-17 api usage count: 2
+[Captcha Solver] 验证失败
+[EUserv] Login tried the 2th time
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: usmhv
+[Captcha Solver] current date 2023-02-17 api usage count: 3
+[Captcha Solver] 验证失败
+[EUserv] Login tried the 3th time
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: d2syfj
+[Captcha Solver] current date 2023-02-17 api usage count: 4
+[Captcha Solver] 验证通过
 [EUserv] 检测到第 1 个账号有 1 台 VPS，正在尝试续期
-[MailParser] PIN: 494435
+[MailParser] PIN: 993348
 [EUserv] ServerID: 306006 has been successfully renewed!
 Checking.......
 [EUserv] ALL Work Done! Enjoy~
@@ -9,14 +31,25 @@ Checking.......
 [EUserv] 正在续费第 2 个账号
 [Captcha Solver] 进行验证码识别...
 [Captcha Solver] You are using your own apikey.
-[Captcha Solver] 识别的验证码是: zw6y43
-[Captcha Solver] current date 2023-02-09 api usage count: 2
+[Captcha Solver] 识别的验证码是: maedpu
+[Captcha Solver] current date 2023-02-17 api usage count: 5
+[Captcha Solver] 验证失败
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: amyeo
+[Captcha Solver] current date 2023-02-17 api usage count: 6
+[Captcha Solver] 验证失败
+[EUserv] Login tried the 2th time
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: 4
+[Captcha Solver] current date 2023-02-17 api usage count: 7
 [Captcha Solver] 验证通过
 [EUserv] 检测到第 2 个账号有 1 台 VPS，正在尝试续期
-[MailParser] PIN: 581863
+[MailParser] PIN: 151906
 [EUserv] ServerID: 308015 has been successfully renewed!
 Checking.......
 [EUserv] ALL Work Done! Enjoy~
 ******************************
 Telegram Bot 推送成功
-2023-02-10 01:11:00
+2023-02-17 10:24:21
