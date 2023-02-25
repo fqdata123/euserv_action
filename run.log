@@ -1,17 +1,27 @@
 ******************************
 [EUserv] 正在续费第 1 个账号
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: 10
+[Captcha Solver] current date 2023-02-25 api usage count: 1
+[Captcha Solver] 验证通过
 [EUserv] 检测到第 1 个账号有 1 台 VPS，正在尝试续期
-[MailParser] PIN: 373055
+[MailParser] PIN: 673115
 [EUserv] ServerID: 306006 has been successfully renewed!
 Checking.......
 [EUserv] ALL Work Done! Enjoy~
 ******************************
 [EUserv] 正在续费第 2 个账号
+[Captcha Solver] 进行验证码识别...
+[Captcha Solver] You are using your own apikey.
+[Captcha Solver] 识别的验证码是: xyhhan
+[Captcha Solver] current date 2023-02-25 api usage count: 2
+[Captcha Solver] 验证通过
 [EUserv] 检测到第 2 个账号有 1 台 VPS，正在尝试续期
-[MailParser] PIN: 704890
+[MailParser] PIN: 377823
 [EUserv] ServerID: 308015 has been successfully renewed!
 Checking.......
 [EUserv] ALL Work Done! Enjoy~
 ******************************
 Telegram Bot 推送成功
-2023-02-18 01:10:34
+2023-02-25 10:21:28
